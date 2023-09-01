@@ -4,53 +4,64 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Sidebar Navigation Menu</title>
-		<link rel="stylesheet" href="sidebarr-nav-menu.css">
+		<link rel="stylesheet" href="sidebar-nav-menu.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<body>
-		<!-- TODO agregar globos de texto a cada elemento del menu con su titulo -->
+	
 		<nav class="navbar">
-		<ul class="list">
-			<li class="list element">
-				<a href="#Si">
-					<span class="material-icons">
-						home
-					</span>
-				</a>
-			</li>
-			<li class="list element">
-				<a href="#Si">
-					<span class="material-icons">
-						account_circle
-					</span>
-				</a>
-				
-			</li>
-			<li class="list element">
-				<a href="#Si">
-					<span class="material-icons">
-						chat_bubble
-					</span>
-				</a>
-			</li>
-			<li class="list element">
-				<a href="#Si">
-					<span class="material-icons">
-						settings
-					</span>
-				</a>
-			</li>
-			<li class="list element">
-				<a href="#Si">
-					<span class="material-icons">
-						quiz
-					</span>
-				</a>
-			</li>
-		</ul>
-	</nav>
-	<main>
-		<!-- TODO agreagr elementos para redireccionar al todos iconos al hacer click(dentro de la misma pagina) -->
+			<button class="navbar__buttom" type="button"><span class="navbar__buttom-icon material-icons">menu</span></button>
+			<ul class="navbar__list">
+				<li class="list__element">
+					<a class="element__link" href="#">
+						<span class="material-icons element__icon">home</span> <p class="element__name">Home</p>
+					</a>
+				</li>
+				<li class="list__element">
+					<a class="element__link" href="#article1">
+						<span class="material-icons element__icon">account_circle</span> <p class="element__name">Profile</p>
+					</a>
+				</li>
+				<li class="list__element">
+					<a class="element__link" href="#article2">
+						<span class="material-icons element__icon">chat_bubble</span> <p class="element__name">Messages</p>
+					</a>
+				</li>
+				<li class="list__element">
+					<a class="element__link" href="#article3">
+						<span class="material-icons element__icon">settings</span> <p class="element__name">Settings</p>
+					</a>
+				</li>
+				<li class="list__element">
+					<a class="element__link" href="#article4">
+						<span class="material-icons element__icon">quiz</span> <p class="element__name">FAQ's</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	<main class="main">
+		<!-- TODO agregar elementos para redireccionar al todos iconos al hacer click(dentro de la misma pagina) -->
+		<article class="article" id="article1">
+			<h2 class="art1__title">title1XD</h2>
+			<p class="art1__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.</p>
+		</article>
+		<article class="article" id="article2">
+			<h2 class="art2__title">title2XD</h2>
+			<p class="art2__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.</p>
+		</article>
+		<article class="article" id="article3">
+			<h2 class="art3__title">title3XD</h2>
+			<p class="art3__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.</p>
+		</article>
+		<article class="article" id="article4">
+			<h2 class="art4__title">title4XD</h2>
+			<p class="art4__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.</p>
+		</article>
+		<article class="article" id="article5">
+			<h2 class="art5__title">title5XD</h2>
+			<p class="art5__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem eveniet odio eos! Pariatur, error dolore. In incidunt ullam obcaecati aut veritatis officia, sed expedita quisquam quia repudiandae ex iure! Quos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laudantium, molestias ab cupiditate ex, quam iste dolorum excepturi aliquid rem ipsum aspernatur laboriosam aut commodi nobis eius vero, voluptatibus aliquam.</p>
+		</article>
 	</main>
+	<script src="sidebar-nav-menu.js"></script>
 </body>
 </html>
